@@ -29,7 +29,7 @@ app.post('/', async (req, res) => {
   } else {
     try {
       if (lang !== 'en') {
-        text = await helperFunctions.translateToEn(text)
+        text = (await helperFunctions.translateToEn(text)).text
       }
       const result = await helperFunctions.getPrediction(text, wordIndex)
       res.json(result)
