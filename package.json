@@ -1,0 +1,27 @@
+{
+  "name": "kipi-ml-production",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/health-troops/kipi-ml-production.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/health-troops/kipi-ml-production/issues"
+  },
+  "homepage": "https://github.com/health-troops/kipi-ml-production#readme",
+  "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  }
+}
