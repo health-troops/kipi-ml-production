@@ -9,6 +9,10 @@ const padArray = function(arr, len, fill) {
 }
 
 const getPrediction = async (text, wordIndex) => {
+  if (text.trim() === "My symptoms are ." || text.trim() === "") {
+    // Handle manually for completely fine situation
+    return [1.0, 0.0, 0.0]
+  }
   const wordArr = text.split(' ').map(val => {
     const word = val.replace(/^[^a-z\d]*|[^a-z\d]*$/gi, '');
     if (word in wordIndex) {
@@ -37,5 +41,37 @@ const translateToEn = async (text) => {
   return await translate(`${text}`, { to });
 }
 
+const appendSymptoms = (text, symptoms, selfTreatDict) => {
+  let result = "My symptoms are "
+  let first = true
+  symptoms.forEach((id) => {
+    if (first) {
+      result += selfTreatDict[id].gejala
+      first = false
+    } else {
+      result += ", " + selfTreatDict[id].gejala
+    }
+  })
+  result += ". " + text
+  return result
+}
+
+const getRecommendation = (predicted, rekomenPrediksi) => {
+  let highestId = 0
+  predicted.forEach((val, id) => {
+    if (val > predicted[highestId]) {
+      highestId = id
+    }
+  })
+  return rekomenPrediksi.filter(({ level }) => level === highestId)[0]
+}
+
+const getTreatments = (symptoms, selfTreatDict) => {
+  return symptoms.map((id) => selfTreatDict[id])
+}
+
 exports.getPrediction = getPrediction
 exports.translateToEn = translateToEn
+exports.appendSymptoms = appendSymptoms
+exports.getRecommendation = getRecommendation
+exports.getTreatments = getTreatments

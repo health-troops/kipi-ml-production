@@ -1,0 +1,14 @@
+[
+    {
+        "level": 0,
+        "rekomendasi": "KIPI yang kamu alami masuk dalam kategori ringan. Lakukan hal hal berikut untuk penyembuhan mandiri."
+    },
+    {
+        "level": 1,
+        "rekomendasi": "KIPI yang kamu alami masuk dalam kategori sedang. Jangan khawatir, anda dapat menelepon kontak yang tertera pada sertifikat vaksin sambil melakukan penanganan gejala di bawah ini."
+    },
+    {
+        "level": 2,
+        "rekomendasi": "Segera kunjungi fasilitas kesehatan terdekat untuk menangani KIPI yang anda alami. Anda dapat melakukan hal-hal di bawah ini untuk membantu meredakan gejala."
+    }
+]

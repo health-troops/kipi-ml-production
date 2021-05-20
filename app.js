@@ -10,6 +10,14 @@ const port = 3000
 const serverApiKey = '$Hell0Guy5;)(Wh4t][&*sU^p'
 
 const wordIndex = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'additional_model_files/word_index.json')))
+const rekomenPrediksi = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'knowledge_base/Rekomendasi Teks Prediksi.json')))
+const selfTreatment = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'knowledge_base/Self Treatment.json')))
+const selfTreatDict = {}
+
+// PREPROCESSING
+selfTreatment.forEach((problem) => {
+  selfTreatDict[problem.id] = problem
+})
 
 // MIDDLEWARE
 app.use(cors());
@@ -21,7 +29,7 @@ app.get('/', async (req, res) => {
 })
 
 app.post('/', async (req, res) => {
-  const { apiKey, lang } = req.body
+  const { apiKey, lang, symptoms } = req.body
   let { text } = req.body
 
   if (apiKey !== serverApiKey) {
@@ -31,7 +39,13 @@ app.post('/', async (req, res) => {
       if (lang !== 'en') {
         text = (await helperFunctions.translateToEn(text)).text
       }
-      const result = await helperFunctions.getPrediction(text, wordIndex)
+      text = helperFunctions.appendSymptoms(text, symptoms, selfTreatDict)
+      const predicted = await helperFunctions.getPrediction(text, wordIndex)
+      const result = {
+        prediction: predicted,
+        recommendation: helperFunctions.getRecommendation(predicted, rekomenPrediksi),
+        treatment: helperFunctions.getTreatments(symptoms, selfTreatDict)
+      }
       res.json(result)
     } catch(e) {
       console.log(e)

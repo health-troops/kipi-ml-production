@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "gejala": "Injection site pain",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat melakukan penanganan awal dengan kompres hangat pada area suntik dan mengurangi beban/ tekanan pada area tersebut. Bersihkan area bekas suntikan untuk menghindari infeksi. Kemudian anda dapat mengonsumsi obat penghilang nyeri seperti ibuprofen, paracetamol, aspirin, antihistamin, atau asetaminofen."
+    },
+    {
+        "id": 2,
+        "gejala": "Injection site erythema",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat membersihkan area bekas suntikan untuk menghindari infeksi. Jika tidak kunjung hilang dan nyeri semakin parah segera hubungi dokter untuk menghindari adanya kelainan darah seperti hemofilia, thalasemia, dll."
+    },
+    {
+        "id": 3,
+        "gejala": "Injection site swelling",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres hangat pada area suntik dan mengurangi beban/ tekanan pada area suntik. Bersihkan area bekas suntikan untuk menghindari infeksi. Kemudian, jika diperlukan anda dapat mengonsumsi obat penghilang nyeri seperti ibuprofen, paracetamol, aspirin, antihistamin, atau asetaminofen."
+    },
+    {
+        "id": 4,
+        "gejala": "Myalgia",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres otot yang terasa nyeri dan lakukan peregangan di area yang nyeri. Hindari melakukan aktivitas yang terlalu berat. jika dirasa perlu, anda dapat mengonsumsi obat pereda nyeri sepert ibuprofen, paracetamol, aspirin, antihistamin, atau asetaminofen."
+    },
+    {
+        "id": 5,
+        "gejala": "Fatigue",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat istirahat cukup. Jika disertai nyeri yang parah segera hubungi dokter"
+    },
+    {
+        "id": 6,
+        "gejala": "Arthralgia",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres hangat di bagian persendian yang nyeri selama 15 menit 3-4 kali sehari dan lakukan peregangan ringan agar sendi tidak kaku. Kurangi aktivitas berat pada daerah sendi yang sakit. Anda dapat mengoleskan gel pereda nyeri. Jika gejala semakin parah, segera hubungi dokter atau petugas yang tertera pada kertas informasi vaksin"
+    },
+    {
+        "id": 7,
+        "gejala": "Injection site pruritus",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres area bekas suntik dengan air dingin. Jika dirasa perlu, anda dapat mengonsumsi obat pereda nyeri seperti ibuprofen, paracetamol, aspirin, antihistamin, atau asetaminofen. Jika gatal tidak berkurang, segera hubungi dokter untuk menghindari efek alergi terhadap vaksin."
+    },
+    {
+        "id": 8,
+        "gejala": "Chills",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat istirahat cukup dan banyak konsumsi air putih. Selanjutnya, anda dapat mengompres hangat pada kening. Jika dirasa perlu, anda dapat mengonsumsi obat demam seperti paracetamol"
+    },
+    {
+        "id": 9,
+        "gejala": "Headache",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat istirahat cukup dan konsumsi air putih yang cukup. Lakukan pengompresan hangat pada kening dam konsumsi obat pereda nyeri jika diperlukan."
+    },
+    {
+        "id": 10,
+        "gejala": "Diarrhoea",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengonsumsi air putih (2-3 liter/hari) dan konsumsi makanan rendah serat. Harap hindari konsumsi makanan pedas dan berlemak, konsumsi suplemen probiotik, minum obat diare. Jika tidak membaik setelah 2/3 hari segera hubungi dokter."
+    },
+    {
+        "id": 11,
+        "gejala": "Paraesthesia",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat melakukan olahraga secara rutin dan mengonsumsi makanan yang bernutrisi."
+    },
+    {
+        "id": 12,
+        "gejala": "Nausea",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih yang cukup dan menghindari makanan padat hingga muntah berhenti. Jika anda sudah dapat mencerna makanan, anda dapat mengonsumsi pisang, roti tawar, atau nasi. Kemudian anda dapat minum oralit."
+    },
+    {
+        "id": 13,
+        "gejala": "Neck pain",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres hangat di leher yang sakit dan melakukan peregangan otot ringan. Hindari posisi duduk lama. Jika dirasa perlu, anda dapat mengonsumsi paracetamol."
+    },
+    {
+        "id": 14,
+        "gejala": "Tremor",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat menghindari konsumsi zat kafein dan amfetamin serta lakukan latihan pernapasan. Jika kondisi tidak membaik, segera hubungi dokter untuk mengetahui penyebab dan penanganan tremor dengan tepat."
+    },
+    {
+        "id": 15,
+        "gejala": "Chest discomfort",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat menggunakan nitogliserin tablet di bawah lidah. Selain itu, jika diperlukan anda dapat mengonsumsi obat seperti aspirin dan obat trombolik. Jika nyeri dada terasa parah segera hubungi dokter."
+    },
+    {
+        "id": 16,
+        "gejala": "Cough",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengonsumsi obat batuk dan minum air putih minimal 2 liter/hari. Jika dalam 3-5 hari tidak berkurang/justru bertambah, segera hubungi dokter."
+    },
+    {
+        "id": 17,
+        "gejala": "Peripheral swelling",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih cukup. Apabila bengkak terjadi di kaki dapat digunakan kaus kaki kompresi dan melakukan perendaman dengan garam epsom."
+    },
+    {
+        "id": 18,
+        "gejala": "Lymphadenopathy",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat istirahat cukup. Lakukan pengompresan pada area bengkak dengan kain basah hangat. Jika diperlukan, anda dapat mengonsumsi obat pereda nyeri."
+    },
+    {
+        "id": 19,
+        "gejala": "Hypoaesthesia",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat mengompres dengan air hangat di bagian yang mati rasa."
+    },
+    {
+        "id": 20,
+        "gejala": "Heart rate increased",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih yang cukup dan konsumsi makanan yang banyak mengandung mineral. Anda diharapkan juga membatasi konsumsi asupan yang bersifat stimulan dan menghindari stres."
+    },
+    {
+        "id": 21,
+        "gejala": "Hyperhidrosis",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih yang cukup untuk mencegah dehedrasi."
+    },
+    {
+        "id": 22,
+        "gejala": "Urticaria",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat menjaga kebersihan kulit dan mengompres dengan air dingin pada bagian yang mengalami biduran. Jika diperlukan, gunakan lotion yang mengandung calamine."
+    },
+    {
+        "id": 23,
+        "gejala": "Pruritus",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat menjaga kebersihan kulit dan mengompres dengan air dingin pada bagian yang mengalami biduran. Jika diperlukan, gunakan lotion yang mengandung calamine."
+    },
+    {
+        "id": 24,
+        "gejala": "Covid19",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih cukup dan gunakan obat sesuai gejala covid yang dirasakan."
+    },
+    {
+        "id": 25,
+        "gejala": "Syncope",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat minum air putih cukup dan segera konsultasikan pada dokter untuk mengetahui penyebab pastinya."
+    },
+    {
+        "id": 26,
+        "gejala": "Dyspnoea",
+        "penanganan": "Jika anda mengalami gejala ini, anda dapat melakukan pursed-lip breathing dan duduk dengan posisi ke depan sedikit membungkuk atau berdiri menyandar dinding. Jika mengalami sesak napas berkepanjangan di malam hari, disertai demam, menggigil, batuk, dan kaki membengkak dan /terasa dingin segera hubungi dokter."
+    }
+]
