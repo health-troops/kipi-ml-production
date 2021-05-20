@@ -1,3 +1,5 @@
+[![Testing](https://github.com/health-troops/kipi-ml-production/actions/workflows/github-actions-test.yml/badge.svg)](https://github.com/health-troops/kipi-ml-production/actions/workflows/github-actions-test.yml)
+
 # HOW TO RUN (Windows)
 
 $TESTDATA="$(pwd)"
